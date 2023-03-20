@@ -1,0 +1,18 @@
+.find-more{
+    width: 100%;
+    height: 700px;
+}
+
+.tabs {
+    height: 200px;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+
+.tabs button:hover{
+    cursor: pointer;
+    background-color: rgb(177, 177, 177);
+}

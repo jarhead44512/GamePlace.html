@@ -1,0 +1,51 @@
+.navbar {
+    margin: 0 auto;
+    width: 100%;
+    max-height: 60px;
+    display: grid;
+    grid-template-columns: 5% 20% 60% 5% 5% 5%;
+    grid-template-rows: 60px;
+    font-size: 2rem;
+    position: fixed;
+    z-index: 99;
+    background-color: black;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo img{
+
+    height: 55px;
+}
+
+.nav-links {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-links li{
+    margin: 0 10px;
+}
+
+.navbar button{
+    margin: auto;
+    padding: auto;
+    background-color: black;
+    border: none;
+}
+
+.navbar i{
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}

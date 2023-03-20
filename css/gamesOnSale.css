@@ -1,0 +1,60 @@
+h1 {
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.onsale .container{
+    width: 100%;
+    height: auto;
+    padding-bottom: 220px;
+    background-color: rgb(22, 22, 22);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 100px;
+}
+
+.sale-Card {
+    width: 300px;
+    height: 275px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 1%;
+}
+
+.sale-Card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.sale-Card img{
+    max-width: 100%;
+    height: 200px;
+}
+
+.sale-Card h2{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.game-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+}
+
+.game-info i{
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+
+.price-block{
+    margin-right: -50px;
+    }
